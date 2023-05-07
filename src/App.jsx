@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./routes/Home";
@@ -6,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <React.Fragment >
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -14,7 +15,7 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
-    </>
+    </React.Fragment>
   );
 }
 
