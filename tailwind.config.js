@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         "gradient-radial":
           "radial-gradient(82.57% 82.57% at 50% 50%, rgba(0, 85, 255, 0.32) 0%, rgba(217, 217, 217, 0) 100%)",
+        "third-container": "rgba(54, 57, 112, 0.2);",
       },
     },
     fontFamily: {
@@ -15,4 +16,3 @@ export default {
   },
   plugins: [],
 };
-

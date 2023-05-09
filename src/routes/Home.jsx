@@ -4,6 +4,8 @@ import bitcoin from "../assets/Frame 10.png";
 import coinbase from "../assets/Vector (4).png";
 import rising from "../assets/Rising.png";
 import icon from "../assets/image 10.png";
+import girl from "../assets/image 9.png";
+
 const Home = () => {
   return (
     <div className="bg-[#181931] w-full h-full text-white">
@@ -56,7 +58,7 @@ const Home = () => {
         Invest in your insights regarding regrading upcoming Occurrences, and
         leverage your expertise to engage in trading and reap advantages.
       </p>
-      <div className="second-container w-full py-10 px-2 sm:px-28 bg-gradient-radial flex flex-col lg:flex-row items-center ">
+      <div className="second-container w-full py-10 px-5 sm:px-28 bg-gradient-radial flex flex-col lg:flex-row items-center ">
         <div className="left lg:w-5/12 mb-20 lg:mb-0 h-full flex items-center">
           <img src={icon} alt="" />
         </div>
@@ -64,7 +66,7 @@ const Home = () => {
           <h2 className="text-6xl text-center font-bold">
             First on Blockchain
           </h2>
-          <p className="text-2xl mt-16">
+          <p className="text-base sm:text-2xl mt-16">
             Welcome to GetFoz, the world’s first WAX blockchain-based betting
             bonanza that’s so much fun, it’ll have you waxing poetic about your
             trades! Tired of the same old, dull trading platforms? Fear not,
@@ -72,13 +74,30 @@ const Home = () => {
             of WAX blockchain with the exhilarating world of event trading to
             create an experience that’s as entertaining as it is lucrative.
           </p>
-          <p className="text-2xl mt-5">
+          <p className="text-base sm:text-2xl mt-5">
             Step right up, ladies and gentlemen, and join the GetFoz circus,
             where you’ll witness the marvel of cutting-edge blockchain
             technology, the thrill of predicating event outcomes, and the
             undeniable joy of wining those sweet, sweet WAX tokens.{" "}
           </p>
-          <button className="bg-[#0055FF] w-[253px] h-[53px] font-medium rounded-2xl mt-10">Connect Wallet</button>
+          <button className="bg-[#0055FF] w-[253px] h-[53px] font-medium rounded-2xl mt-10">
+            Connect Wallet
+          </button>
+        </div>
+      </div>
+      <h2 className="px-2 sm:px-28 text-[40px] text-center mt-32 font-semibold">
+        Splurge on Your Perspective
+      </h2>
+      <p className="px-2 sm:px-28 pb-14 mt-10 text-3xl font-light">
+        Invest in your insights regarding regrading upcoming Occurrences, and
+        leverage your expertise to engage in trading and reap advantages.
+      </p>
+      <div className="third-container bg-[#36397031] w-full">
+        <div className="organizer flex">
+          <div
+            className="container max-w-[614px] max-h-[346px] bg-[#212345] border-[.8px] border-[#363970]"
+          ></div>
+          <img src={girl} alt="" />
         </div>
       </div>
     </div>
