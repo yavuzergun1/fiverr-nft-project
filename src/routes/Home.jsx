@@ -149,8 +149,8 @@ const Home = () => {
         </div>
       </div>
       <div className="fourth-container px-5 py-9 bg-[#232345] flex flex-col w-full items-center  ">
-        <h2 className="text-4xl text-center">How It Work?</h2>
-        <p className="my-10 mb-32 text-center">
+        <h2 className="text-5xl font-semibold text-center">How It Work?</h2>
+        <p className="my-10 mb-32 text-center text-2xl">
           Lorem ipsum dolor sit amet consectetur. Dictum vitae urna ullamcorper
           proin mattis. Cursus pellentesque sagittis faucibus quam orci
           parturient condimentum scelerisque vita
