@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Button from "./Button";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -41,14 +40,13 @@ const Navbar = () => {
           Contact Us
         </NavLink>
       </div>
-      <Button
-        addClass={
-          "bg-[#0055FF] w-[148px] h-[40px] absolute right-16 sm:relative "
-        }
+      <Link
+        to="/account"
+        className="text-base text-center pt-2 text-white rounded-xl font-normal bg-[#0055FF] w-[148px] h-[40px] absolute right-16 sm:relative "
       >
         {" "}
         Login
-      </Button>
+      </Link>
 
       <div className="hamburger-menu relative sm:hidden inline-block ">
         <input

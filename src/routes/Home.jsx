@@ -1,7 +1,7 @@
-import binance from "../assets/path16 (1).png";
-import ripple from "../assets/Frame 11.png";
-import bitcoin from "../assets/Frame 10.png";
-import coinbase from "../assets/Vector (4).png";
+// import binance from "../assets/path16 (1).png";
+// import ripple from "../assets/Frame 11.png";
+// import bitcoin from "../assets/Frame 10.png";
+// import coinbase from "../assets/Vector (4).png";
 import rising from "../assets/Rising.png";
 import icon from "../assets/image 10.png";
 import girl from "../assets/image 9.png";
@@ -27,7 +27,7 @@ const Home = () => {
           <button className="bg-[#0055FF] w-[253px] h-[53px] rounded-2xl mt-10">
             Connect Wallet
           </button>
-          <div className="trademarks">
+          {/* <div className="trademarks">
             <div className="first flex gap-10 h-32 mt-10 items-center">
               <img src={binance} alt="" />
               <img src={ripple} alt="" />
@@ -37,7 +37,7 @@ const Home = () => {
             <div className="second">
               <img src={binance} alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="right-container px-5 mt-16 xl:mt-0">
           <img src={rising} alt="" />

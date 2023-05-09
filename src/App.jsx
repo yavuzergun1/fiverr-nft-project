@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import About from "./routes/About";
 import Faq from "./routes/Faq";
 import Contact from "./routes/Contact";
+import Account from "./routes/Account/Account";
+import MyAccount from "./routes/Account/MyAccount";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
           <Route path="/aboutus" element={<About />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contactus" element={<Contact />} />
+          <Route path="/account" element={<Account />}>
+            <Route path="/account/myaccount" element={<MyAccount />} />
+          </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
