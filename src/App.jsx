@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./routes/Home";
@@ -10,7 +9,7 @@ import Contact from "./routes/Contact";
 
 function App() {
   return (
-    <React.Fragment >
+    <main className="overflow-x-hidden">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -19,9 +18,9 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/contactus" element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
-    </React.Fragment>
+    </main>
   );
 }
 
