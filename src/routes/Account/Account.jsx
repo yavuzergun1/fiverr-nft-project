@@ -10,6 +10,9 @@ const Account = () => {
         <Link className="text-white " to={"/account/mytransactions"}>
           My Transactions
         </Link>
+        <Link className="text-white " to={"/account/events"}>
+          Live Events
+        </Link>
       </div>
       <Outlet />
     </div>
