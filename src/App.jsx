@@ -9,7 +9,7 @@ import Contact from "./routes/Contact";
 import Account from "./routes/Account/Account";
 import MyAccount from "./routes/Account/MyAccount";
 import TransActions from "./routes/Account/TransActions";
-import Events from "./routes/Account/Events";
+import LiveEvents from "./routes/Account/LiveEvents";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <Route path="/account" element={<Account />}>
             <Route path="/account/myaccount" element={<MyAccount />} />
             <Route path="/account/mytransactions" element={<TransActions />} />
-            <Route path="/account/events" element={<Events />} />
+            <Route path="/account/liveevents" element={<LiveEvents />} />
           </Route>
         </Routes>
         <Footer />

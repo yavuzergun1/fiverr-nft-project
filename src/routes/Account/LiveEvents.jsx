@@ -1,7 +1,7 @@
 import Card from "../../components/Card";
 import Pagination from "../../components/Pagination";
 
-const Events = () => {
+const LiveEvents = () => {
   return (
     <div className="pt-10 pb-14 px-2 sm:px-28">
       <h1 className=" text-3xl font-medium ">My Account</h1>
@@ -21,4 +21,4 @@ const Events = () => {
   );
 };
 
-export default Events;
+export default LiveEvents;
