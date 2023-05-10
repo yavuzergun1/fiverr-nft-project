@@ -10,6 +10,7 @@ import Account from "./routes/Account/Account";
 import MyAccount from "./routes/Account/MyAccount";
 import TransActions from "./routes/Account/TransActions";
 import LiveEvents from "./routes/Account/LiveEvents";
+import ClosedEvents from "./routes/Account/ClosedEvents";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/account/myaccount" element={<MyAccount />} />
             <Route path="/account/mytransactions" element={<TransActions />} />
             <Route path="/account/liveevents" element={<LiveEvents />} />
+            <Route path="/account/closedevents" element={<ClosedEvents />} />
           </Route>
         </Routes>
         <Footer />

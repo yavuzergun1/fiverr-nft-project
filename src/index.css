@@ -6,3 +6,6 @@
 .active{
     @apply text-[#0055FF];
 }
+.active-decoration{
+    @apply border-b-4 pb-5 border-[#0055FF] translate-y-4;
+}

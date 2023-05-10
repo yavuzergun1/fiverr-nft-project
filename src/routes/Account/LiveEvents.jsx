@@ -11,10 +11,10 @@ const LiveEvents = () => {
         tristique. At ullamcorper sit.
       </p>
       <div className="cards flex flex-wrap justify-between">
-        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
-        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
-        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
-        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
+        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
+        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
+        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
+        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
       </div>
       <Pagination />
     </div>
