@@ -1,7 +1,7 @@
-import Card from "../../components/Card";
 import Pagination from "../../components/Pagination";
+import InfoCard from "../../components/infoCard";
 
-const LiveEvents = () => {
+const MyTrade = () => {
   return (
     <div className="pt-10 pb-14 px-2 xl:px-6 2xl:px-28">
       <h1 className=" text-3xl font-medium ">My Account</h1>
@@ -11,14 +11,14 @@ const LiveEvents = () => {
         tristique. At ullamcorper sit.
       </p>
       <div className="cards flex flex-wrap justify-between">
-        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
-        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
-        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
-        <Card firstColor="bg-[#0055FF]" secondColor="bg-[#FF0000]" />
-      </div>
-      <Pagination />
+        <InfoCard />
+        <InfoCard />
+        <InfoCard />
+        <InfoCard />
+          </div>
+          <Pagination/>
     </div>
   );
-};
+}
 
-export default LiveEvents;
+export default MyTrade
