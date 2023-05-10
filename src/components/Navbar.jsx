@@ -37,7 +37,7 @@ const Navbar = () => {
         </NavLink>
       </div>
       <Link
-        to="/account"
+        to="/account/myaccount"
         className="text-base text-center pt-2 text-white rounded-xl font-normal bg-[#0055FF] w-[148px] h-[40px] absolute right-16 sm:relative "
       >
         {" "}
