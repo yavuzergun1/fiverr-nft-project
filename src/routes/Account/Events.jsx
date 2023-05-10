@@ -1,11 +1,9 @@
 import Card from "../../components/Card";
+import Pagination from "../../components/Pagination";
 
 const Events = () => {
   return (
-    <div
-      className="pt-10
-     pb-44 px-2 sm:px-28"
-    >
+    <div className="pt-10 pb-14 px-2 sm:px-28">
       <h1 className=" text-3xl font-medium ">My Account</h1>
       <p className="max-w-[561px] mt-5">
         Lorem ipsum dolor sit amet consectetur. Nisi rhoncus euismod lobortis
@@ -13,11 +11,12 @@ const Events = () => {
         tristique. At ullamcorper sit.
       </p>
       <div className="cards flex flex-wrap justify-between">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
+        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
+        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
+        <Card blueColor="bg-[#0055FF]" redColor="bg-[#FF0000]" />
       </div>
+      <Pagination />
     </div>
   );
 };
