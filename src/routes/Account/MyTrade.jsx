@@ -15,10 +15,10 @@ const MyTrade = () => {
         <InfoCard />
         <InfoCard />
         <InfoCard />
-          </div>
-          <Pagination/>
+      </div>
+      <Pagination />
     </div>
   );
-}
+};
 
-export default MyTrade
+export default MyTrade;
