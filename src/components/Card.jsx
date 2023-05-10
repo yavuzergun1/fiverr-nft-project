@@ -1,6 +1,6 @@
 import bitlogo from "../assets/Group 1000003547.png";
 // eslint-disable-next-line
-const Card = ({firstColor, secondColor}) => {
+const Card = ({ firstColor, secondColor, win, lose }) => {
   return (
     <div className="info-container mt-14 max-w-[614px] h-80 md:h-[392px] rounded-lg bg-[#212345] border-[.8px] border-[#363970] ">
       <div className="bitcoin px-2 md:px-5 items-center flex justify-between py-2 border-b-[1px] border-[#363970] xl:h-32 ">
@@ -29,6 +29,7 @@ const Card = ({firstColor, secondColor}) => {
             {" "}
             Yes{" "}
           </button>
+         { lose && <p className="text-lg text-[#FF0000] font-medium">{lose} </p>}
         </div>
 
         <div className="third flex text-sm w-full justify-center gap-8">
@@ -37,6 +38,7 @@ const Card = ({firstColor, secondColor}) => {
             {" "}
             No{" "}
           </button>
+        { win && <p className="text-lg text-[#0055FF] font-medium">{win} </p>}
         </div>
       </div>
     </div>

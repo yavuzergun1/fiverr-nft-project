@@ -37,6 +37,14 @@ const Account = () => {
           Closed Events
         </NavLink>
         <NavLink
+          to="/account/resolvedevents"
+          className={({ isActive }) =>
+            isActive ? "active-decoration " : "text-white"
+          }
+        >
+          Resolved Events
+        </NavLink>
+        <NavLink
           to="/account/mytrade"
           className={({ isActive }) =>
             isActive ? "active-decoration " : "text-white"

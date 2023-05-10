@@ -12,6 +12,7 @@ import TransActions from "./routes/Account/TransActions";
 import LiveEvents from "./routes/Account/LiveEvents";
 import ClosedEvents from "./routes/Account/ClosedEvents";
 import MyTrade from "./routes/Account/MyTrade";
+import ResolvedEvents from "./routes/Account/ResolvedEvents";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/account/mytransactions" element={<TransActions />} />
             <Route path="/account/liveevents" element={<LiveEvents />} />
             <Route path="/account/closedevents" element={<ClosedEvents />} />
+            <Route path="/account/resolvedevents" element={<ResolvedEvents />} />
             <Route path="/account/mytrade" element={<MyTrade />} />
           </Route>
         </Routes>
