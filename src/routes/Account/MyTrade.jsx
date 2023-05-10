@@ -1,5 +1,5 @@
 import Pagination from "../../components/Pagination";
-import InfoCard from "../../components/infoCard";
+import InfoCard from "../../components/InfoCard";
 
 const MyTrade = () => {
   return (
