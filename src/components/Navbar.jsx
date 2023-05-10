@@ -12,28 +12,24 @@ const Navbar = () => {
       <h2 className="text-white">LOGO</h2>
       <div className="links w-5/12 hidden sm:flex justify-between">
         <NavLink
-          exact
           to="/"
           className={({ isActive }) => (isActive ? "active " : "text-white")}
         >
           Home
         </NavLink>
         <NavLink
-          exact
           to="/aboutus"
           className={({ isActive }) => (isActive ? "active " : "text-white")}
         >
           About Us
         </NavLink>
         <NavLink
-          exact
           to="/faq"
           className={({ isActive }) => (isActive ? "active " : "text-white")}
         >
           FAQ
         </NavLink>
         <NavLink
-          exact
           to="/contactus"
           className={({ isActive }) => (isActive ? "active " : "text-white")}
         >

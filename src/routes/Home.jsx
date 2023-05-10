@@ -64,7 +64,7 @@ const Home = () => {
         Invest in your insights regarding regrading upcoming Occurrences, and
         leverage your expertise to engage in trading and reap advantages.
       </p>
-      <div className="second-container w-full py-10 px-5 sm:px-28 bg-gradient-radial flex flex-col lg:flex-row items-center ">
+      <div className="second-container w-full py-10 px-5 sm:px-28 bg-gradient-radial flex flex-col lg:flex-row items-center">
         <div className="left lg:w-5/12 mb-20 lg:mb-0 h-full flex items-center">
           <img src={icon} alt="" />
         </div>
@@ -94,7 +94,7 @@ const Home = () => {
       <h2 className="px-2 sm:px-28 text-[40px] text-center mt-32 font-semibold">
         Splurge on Your Perspective
       </h2>
-      <p className="px-5 sm:px-28 pb-14 mt-10 text-xl sm:text-3xl font-light">
+      <p className="px-5 sm:px-28 pb-14 mt-10 text-xl sm:text-3xl font-light text-center">
         Invest in your insights regarding regrading upcoming Occurrences, and
         leverage your expertise to engage in trading and reap advantages.
       </p>
