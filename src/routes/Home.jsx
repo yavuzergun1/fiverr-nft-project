@@ -1,4 +1,4 @@
-import rising from "../assets/Rising.png";
+import logo from "../assets/G full.webp";
 import icon from "../assets/image 10.png";
 import girl from "../assets/image 9.png";
 import bitlogo from "../assets/Group 1000003547.png";
@@ -24,8 +24,8 @@ const Home = () => {
             Connect Wallet
           </button>
         </div>
-        <div className="right-container px-5 mt-16 xl:mt-0">
-          <img src={rising} alt="" />
+        <div className="right-container w-11/12 xl:w-6/12 px-5 mt-16 xl:mt-0">
+          {/* <img src={rising} alt="" />
           <div className="buttons flex font-dmSans gap-3 text-sm">
             <button className="bg-[#0055FF] w-[70px] h-[40px]  rounded-2xl mt-10">
               Send
@@ -39,7 +39,8 @@ const Home = () => {
             <button className="bg-[#9111FF] w-[73.6px] h-[40px]  rounded-2xl mt-10">
               Trade
             </button>
-          </div>
+          </div> */}
+          <img src={logo} alt="" />
         </div>
       </div>
       <h3 className="text-center text-[40px] font-semibold mt-24">
