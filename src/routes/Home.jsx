@@ -25,21 +25,6 @@ const Home = () => {
           </button>
         </div>
         <div className="right-container w-11/12 xl:w-6/12 px-5 mt-16 xl:mt-0">
-          {/* <img src={rising} alt="" />
-          <div className="buttons flex font-dmSans gap-3 text-sm">
-            <button className="bg-[#0055FF] w-[70px] h-[40px]  rounded-2xl mt-10">
-              Send
-            </button>
-            <button className="bg-[#FF8811] w-[88.6px] h-[40px]  rounded-2xl mt-10">
-              Receive
-            </button>
-            <button className="bg-[#11A3FF] w-[100.6px] h-[40px]  rounded-2xl mt-10">
-              Exchange
-            </button>
-            <button className="bg-[#9111FF] w-[73.6px] h-[40px]  rounded-2xl mt-10">
-              Trade
-            </button>
-          </div> */}
           <img src={logo} alt="" />
         </div>
       </div>
