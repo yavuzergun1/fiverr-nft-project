@@ -3,7 +3,7 @@ import Pagination from "../../components/Pagination";
 
 const ResolvedEvents = () => {
   return (
-    <div className="pt-10 pb-14 px-2 xl:px-6 2xl:px-28">
+    <div className="pt-10 pb-14 px-2 xl:px-6 2xl:px-16">
       <h1 className=" text-3xl font-medium ">Resolved Events</h1>
       <p className="max-w-[561px] mt-5">
         Lorem ipsum dolor sit amet consectetur. Nisi rhoncus euismod lobortis
