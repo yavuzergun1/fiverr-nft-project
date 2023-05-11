@@ -6,7 +6,7 @@ const Card = ({ firstColor, secondColor, win, lose }) => {
       <div className="bitcoin px-2 md:px-5 items-center flex justify-between py-2 border-b-[1px] border-[#363970] xl:h-32 ">
         <div className="flex w-9/12 items-center gap-4">
           <img className="w-16 h-16" src={bitlogo} alt="" />
-          <p className="text-sm 2xl:text-base ml-1 ">
+          <p className="text-sm  ml-1 ">
             Bitcoin to be priced at 28853.81 USDT or more at 08:10 PM?
           </p>
         </div>
