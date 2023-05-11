@@ -29,7 +29,7 @@ const Card = ({ firstColor, secondColor, win, lose }) => {
             {" "}
             Yes{" "}
           </button>
-         { lose && <p className="text-lg text-[#FF0000] font-medium">{lose} </p>}
+         { lose && <p className="text-base text-[#FF0000] font-medium">{lose} </p>}
         </div>
 
         <div className="third flex text-sm w-full justify-center gap-8">
