@@ -60,7 +60,7 @@ const MyAccount = () => {
                   type="number"
                 />
               </div>
-              <p className="text-xs">$0</p>
+              <p className="text-xs">$0 </p>
             </div>
           </div>
           <p className="ml-10 my-9">1 WAVES = ~ 0.3860 WAX</p>
