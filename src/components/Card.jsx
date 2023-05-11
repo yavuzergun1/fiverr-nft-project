@@ -2,7 +2,7 @@ import bitlogo from "../assets/Group 1000003547.png";
 // eslint-disable-next-line
 const Card = ({ firstColor, secondColor, win, lose }) => {
   return (
-    <div className="info-container mt-14 max-w-[614px] h-80 md:h-[392px] rounded-lg bg-[#212345] border-[.8px] border-[#363970] ">
+    <div className="info-container mt-14 max-w-[450px] h-80 md:h-[392px] rounded-lg bg-[#212345] border-[.8px] border-[#363970] ">
       <div className="bitcoin px-2 md:px-5 items-center flex justify-between py-2 border-b-[1px] border-[#363970] xl:h-32 ">
         <div className="flex w-9/12 items-center gap-4">
           <img className="w-16 h-16" src={bitlogo} alt="" />

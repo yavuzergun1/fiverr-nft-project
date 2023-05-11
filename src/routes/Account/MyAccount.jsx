@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import settings from "../../assets/Group (1).png";
 import waves from "../../assets/div (1).png";
-import dropDown from "../../assets/SVG.png";
-import max from "../../assets/max.png";
 import wax from "../../assets/SVG (1).png";
 
 const MyAccount = () => {
@@ -54,15 +52,13 @@ const MyAccount = () => {
 
           <div className="first flex mt-10 items-center gap-2">
             <img src={waves} alt="" />
-            <img
-              className="w-6 h-6 cursor-pointer"
-              src={dropDown}
-              alt=""
-            />{" "}
-            <div className="value flex items-center justify-between px-5 bg-[#363970] w-[270px] h-14 rounded-xl ">
+            <div className="value flex items-center justify-between px-5 bg-[#363970] w-[270px] h-14 rounded-xl ml-7">
               <div className="left flex gap-3">
-                <img src={max} alt="" />
-                <p className="text-xl">0.00</p>
+                <input
+                  placeholder="0.00"
+                  className="bg-[#363970] focus:ring-0 outline-none h-14"
+                  type="number"
+                />
               </div>
               <p className="text-xs">$0</p>
             </div>
@@ -75,11 +71,13 @@ const MyAccount = () => {
             </div>
 
             <div className="flex gap-2 items-center">
-              <img className="w-6 h-6 cursor-pointer" src={dropDown} alt="" />{" "}
               <div className="value flex items-center justify-between px-5 bg-[#363970] w-[270px] h-14 rounded-xl ">
                 <div className="left flex gap-3">
-                  <img src={max} alt="" />
-                  <p className="text-xl">0.00</p>
+                  <input
+                    placeholder="0.00"
+                    className="bg-[#363970] focus:ring-0 outline-none h-14"
+                    type="number"
+                  />{" "}
                 </div>
                 <p className="text-xs">$0</p>
               </div>
