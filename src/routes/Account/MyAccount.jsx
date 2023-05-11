@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import settings from "../../assets/Group (1).png";
-import waves from "../../assets/div (1).png";
+import waves from "../../assets/SVG (2).png";
 import wax from "../../assets/SVG (1).png";
 
 const MyAccount = () => {
@@ -50,13 +50,16 @@ const MyAccount = () => {
             <img className="h-6 w-6 mr-10" src={settings} alt="" />
           </div>
 
-          <div className="first flex mt-10 items-center gap-2">
-            <img src={waves} alt="" />
+          <div className="first flex mt-10 justify-between  items-center gap-2">
+            <div className="flex items-center gap-2">
+              <img src={waves} alt="" />
+              <p>Waves</p>
+            </div>
             <div className="value flex items-center justify-between px-5 bg-[#363970] w-[270px] h-14 rounded-xl ml-7">
               <div className="left flex gap-3">
                 <input
                   placeholder="0.00"
-                  className="bg-[#363970] focus:ring-0 outline-none h-14"
+                  className="bg-[#363970] w-full focus:ring-0 outline-none h-14"
                   type="number"
                 />
               </div>
@@ -64,7 +67,23 @@ const MyAccount = () => {
             </div>
           </div>
           <p className="ml-10 my-9">1 WAVES = ~ 0.3860 WAX</p>
-          <div className="second flex mt-10 justify-between items-center gap-2">
+          <div className="first flex mt-10 justify-between  items-center gap-2">
+            <div className="flex items-center gap-2">
+              <img src={wax} alt="" />
+              <p>Wax</p>
+            </div>
+            <div className="value flex items-center justify-between px-5 bg-[#363970] w-[270px] h-14 rounded-xl ml-7">
+              <div className="left flex gap-3">
+                <input
+                  placeholder="0.00"
+                  className="bg-[#363970] w-full focus:ring-0 outline-none h-14"
+                  type="number"
+                />
+              </div>
+              <p className="text-xs">$0 </p>
+            </div>
+          </div>
+          {/* <div className="second flex mt-10 justify-between items-center gap-2">
             <div className="flex items-center gap-2">
               <img src={wax} alt="" />
               <p>WAX</p>
@@ -82,7 +101,7 @@ const MyAccount = () => {
                 <p className="text-xs">$0</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <button className="bg-[#0055FF] w-full h-14 rounded-2xl mt-9 ">
             Connect Wallet
           </button>
